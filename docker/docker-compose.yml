@@ -1,0 +1,22 @@
+version: "2.4"
+
+################################################################################
+
+services:
+  cvrr_develop_env:
+    hostname: cvrr_develop_env
+    tty: true
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    shm_size: '64gb'
+    network_mode: host
+    volumes:
+      - ../../../:/root/CVRR-EVALUATION-SUITE
+      - /home/kugou/project_ws/CVRR-ES:/root/CVRR-EVALUATION-SUITE/CVRR-ES
+      - /home/kugou/project_ws/CVRR-ES-Frames:/root/CVRR-ES-Frames
+      - /home/kugou/project_ws/CVRR-ES-Frames-1.0fps:/root/CVRR-ES-Frames-1.0fps
+      - /home/kugou/project_ws/CVRR-ES-Frames-2.0fps:/root/CVRR-ES-Frames-2.0fps
+    env_file:
+      - .env
+    working_dir: /root/CVRR-EVALUATION-SUITE
