@@ -2,7 +2,7 @@
 
 A winning solution for the CVRR (Complex Video Reasoning & Robustness Evaluation) Challenge at CVPR 2025🏆
 
-[![arXiv](https://img.shields.io/badge/arXiv-xxxx.xxxx-b31b1b.svg)](https://arxiv.org/abs/1234.56789)
+[![arXiv](https://img.shields.io/badge/arXiv-2506.21891-b31b1b.svg)](https://arxiv.org/abs/2506.21891)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff)](/docker)
 [![Python 3.10+](https://img.shields.io/badge/Python%203.10+-3776AB?logo=python&logoColor=fff)](#)
 
@@ -228,10 +228,10 @@ please refer to the [CVRR-Evaluation-Suite](https://github.com/mbzuai-oryx/CVRR-
 ## ✅Citation
 If you find our work and this repository useful, please consider giving our repo a star and citing our paper as follows:
 ```bibtex
-@article{XXXXXXXXXX,
+@article{dive2025cvpr,
     title={DIVE: Deep-search Iterative Video Exploration A Technical Report for the CVRR Challenge at CVPR 2025},
     author={Umihiro Kamoto, Tatsuya Ishibashi, Noriyuki Kugo},
-    journal={arXiv:xxxx.xxxx},
+    journal={arXiv:2506.21891},
     year={2025}
 }
 ```
